@@ -5,3 +5,26 @@ https://docs.docker.com/engine/install/centos/
 https://docs.docker.com/engine/install/linux-postinstall/
 sudo groupadd docker  |  sudo usermod -aG docker $USER  |  newgrp docker  |  docker run hello-world
 
+docker version - посмотреть версию
+docker help - 
+docker run --help -помощь по запуску контейнера
+man docker - 
+https://docs.docker.com/engine/reference/commandline/docker/
+
+https://hub.docker.com/   докер хаб
+sudo docker run --rm parseq/hello-docker <message>
+  1    2     3   4         5                6
+  1)
+  2)вызов клиента докера
+  3)создает контейнер и запускает его
+  4)ключ удалить после использования
+  5)образ который запускается
+  6)аргумент
+  
+  run - запуск контейнера из image 
+  commit - создание image из container 
+  ps -a посмотреть все контейнеры в системе
+  ps  только запущенные контейнеры
+  rmi - для удаления image
+  rm - удаление контейнера
+  

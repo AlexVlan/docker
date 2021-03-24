@@ -35,4 +35,6 @@ sudo docker run --rm parseq/hello-docker <message>
     
     Необходимо обязательно запустить докер
     systemctl start docker.service
+    -d запустить контейнер в режиме демона
+    --name задать имя для запускаемого контейнера
     

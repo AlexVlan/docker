@@ -51,6 +51,8 @@ docker run -it --rm -v $(pwd):/home ubuntu:14.04
 2)контейнер разрешенная директория основной системы
 3) что запустить 
 
-
+можно примонтировать файл а не директорию
+ docker run -it --rm -v $(pwd):/home/stepik/message parseq/stepik-mount-files
+docker run --rm -v /tr.txt:/dev/null parseq/stepik-mount-files смонтировать файл в директорию /dev/null
 
     

@@ -55,4 +55,6 @@ docker run -it --rm -v $(pwd):/home ubuntu:14.04
  docker run -it --rm -v $(pwd):/home/stepik/message parseq/stepik-mount-files
 docker run --rm -v /tr.txt:/dev/null parseq/stepik-mount-files смонтировать файл в директорию /dev/null
 
-    
+если есть права на запуск докер контейнера, то можно добавить себе права root
+монтирование подробно
+https://docs.docker.com/storage/volumes/

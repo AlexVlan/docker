@@ -38,3 +38,10 @@ sudo docker run --rm parseq/hello-docker <message>
     -d запустить контейнер в режиме демона
     --name задать имя для запускаемого контейнера
     
+ docker pull ubuntu:15.04 - слои
+ docker history ubuntu:15.04  посмотреть слои
+ docker rm $(docker ps -a | grep -v "_data" | awk 'NR>1 {print $1}')   Удалить все контейнеры кроме тех, который оканчиваются на '_data'
+ 
+ 
+ 
+    
